@@ -15,7 +15,9 @@
 </head>
 <body>
     <div class="container">
+    <div class="app-wrapper">
     <div class="app-weather">
+    <div class="first-view">
    <h1>
        New York
    </h1> 
@@ -29,12 +31,18 @@
        </li>
 
    </ul>
+   </div>
+   
 
    <div class="row">
 <div class="col-6">
-    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Clear">
-12°C | °F
-
+    <div class="clearfix weather-temperature">
+    <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" alt="Clear" class="float-left" />
+     
+  
+   <strong> 12</strong><span class="units" >°C | <a href="#">°F</a></span>
+    
+  </div>
 </div>
 <div class="col-6">
     <ul>
@@ -48,17 +56,25 @@
             Wind: 2 km/h
         </li>
     </ul>
+ 
 </div>
-
-
+   </div>
    </div>
 
-   <small> 
+   
+
+
+  
+
+<small> 
       <a href="https://github.com/liviaalcantaraf/app-weather"> Open-source code</a> by Lívia A.</small>
-
-
-<script src="src/index.js"></script>
 </div>
 </div>
+</div>
+     
+
+
+
+    <script src="src/index.js"></script>
 </body>
 </html>
