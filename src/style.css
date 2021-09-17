@@ -74,3 +74,14 @@ small {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
+.coded-by {
+  text-decoration: none;
+}
+
+#fahrenheit-link {
+  text-decoration: none;
+}
+
+#celsius-link {
+  text-decoration: none;
+}
