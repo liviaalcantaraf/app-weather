@@ -1,6 +1,6 @@
 h1 {
-  color: #878787;
-  font-size: 24px;
+  color: #ece2ff;
+  font-size: 50px;
   font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
@@ -15,8 +15,8 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: rgb(135, 135, 135);
-  font-size: 16px;
+  color: #ece2ff;
+  font-size: 14px;
   font-weight: 100;
   line-height: 19px;
 }
@@ -33,40 +33,47 @@ small {
   font-family: Arial, Helvetica, sans-serif;
 }
 .app-wrapper {
-  max-width: 600px;
+  max-width: 550px;
   margin: 30px auto;
 }
 .app-weather {
-  padding: 20px;
+  padding: 23px;
   border: 1px solid #dadde1;
-  border-radius: 5px;
+  border-radius: 40px;
+  background: #8097b5;
 }
 
 .first-view {
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .weather-temperature img {
   margin-right: 10px;
   height: 64px;
   width: 64px;
+  position: relative;
+  top: -25px;
+  left: 40px;
 }
 
 .weather-temperature strong {
-  color: rgb(33, 33, 33);
-  font-size: 64px;
+  color: #ece2ff;
+  font-size: 70px;
   font-weight: 400;
   line-height: 64px;
+  position: relative;
+  left: 40px;
 }
 
 .weather-temperature .units {
   position: relative;
-  font-size: 16px;
-  top: -35px;
+  font-size: 14px;
+  top: -37px;
+  left: 35px;
 }
 
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: #ece2ff;
   cursor: default;
   text-decoration: none;
 }
@@ -86,25 +93,55 @@ small {
   text-decoration: none;
 }
 
+#weather-details {
+  position: relative;
+  left: 65px;
+}
+
 .weather-forecast {
-  margin-top: 20px;
+  margin-top: 50px;
+  margin-bottom: 20px;
   text-align: center;
 }
 
 .weather-forecast-date {
   font-size: 16px;
-  color: #000;
+  color: #ece2ff;
 }
 
 .weather-forecast-date {
   font-size: 16px;
-  opacity: 0.5;
 }
 
 .weather-forecast-temperature-min {
+  color: #ece2ff;
   opacity: 0.5;
 }
 
 .weather-forecast-temperature {
   font-size: 13px;
+  color: #ece2ff;
+}
+.bg-light {
+  border-radius: 15px;
+}
+
+.lastUpdate {
+  font-size: 10px;
+  margin-top: 5px;
+}
+
+hr {
+  position: relative;
+  left: 50px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+
+  color: #b4cee0;
+}
+
+.outside-image {
+  margin-top: 25px;
+  position: absolute;
+  left: 100px;
 }
