@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+<script src="https://kit.fontawesome.com/8cb095beb4.js" crossorigin="anonymous"></script>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 <link rel="stylesheet" href="src/style.css">
@@ -22,36 +22,43 @@
    <div class="col-5" >
     <input 
     type="search"
-    placeholder="Location"
+    placeholder="Enter a city.." 
     class="form-control"
     id="city-input"
     autocomplete="off"
+    
 
     />
     </div>
     <div class="col-2" >
-<input type="submit" value="search" class= "btn btn-primary" />
+<input type="submit" value="search" class= "btn btn-secondary" />
 </div>
-<div class="col-2">
-<button class="btn btn-success" id="current-location">
-    current 
+<div class="col-3">
+<button class="btn btn-secondary" id="current-location">
+    <i class="fas fa-map-marker-alt"></i>
 </button>
 
 
 </div>
      </div>  
     </form> 
-  
-    <hr width="400">  
+    <hr width="400"> 
 
 
     <div class="first-view">
    <h1 id="city">
      
    </h1> 
+   
+  <ul><li class="lastUpdate">
+           Last updated: <span id="date"></span>
+       </li>
+       </ul>
 
    
    </div>
+
+  
    
 
    <div class="row">
@@ -88,22 +95,25 @@
  
 </div>
    </div>
+
+   <hr width="400">  
     
 <div class="weather-forecast" id="forecast">
    
 </div>
 
-  <ul><li class="lastUpdate">
-           Last updated: <span id="date"></span>
-       </li>
-       </ul>
+
    </div>
 <small> 
       <a href="https://github.com/liviaalcantaraf/app-weather" class="coded-by"> Open-source code</a> by Lívia Alcântara.</small>
+
+
+    </div>
+    <img src="images/undraw_Weather_re_qsmd.svg" width="200" class="outside-image"/>
 </div>
+ 
 </div>
-</div>
-     <img src="images/undraw_Around_the_world_re_n353.svg" width="250"/>
+    
 
 
 

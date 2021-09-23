@@ -33,14 +33,14 @@ small {
   font-family: Arial, Helvetica, sans-serif;
 }
 .app-wrapper {
-  max-width: 550px;
-  margin: 30px auto;
+  max-width: 600px;
+  margin: 10px auto;
 }
 .app-weather {
   padding: 23px;
   border: 1px solid #dadde1;
   border-radius: 40px;
-  background: #8097b5;
+  background: #8fa6c1;
 }
 
 .first-view {
@@ -127,21 +127,21 @@ small {
 }
 
 .lastUpdate {
-  font-size: 10px;
+  font-size: 11px;
   margin-top: 5px;
+  position: relative;
+  left: 5px;
 }
 
 hr {
   position: relative;
   left: 50px;
-  margin-top: 5px;
-  margin-bottom: 30px;
 
   color: #b4cee0;
 }
 
 .outside-image {
   margin-top: 25px;
-  position: absolute;
-  left: 100px;
+  position: relative;
+  left: 800px;
 }
