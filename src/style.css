@@ -3,10 +3,10 @@ body {
 }
 h1 {
   color: #f0f2f4;
-  font-size: 50px;
+  font-size: 65px;
   font-weight: 100;
   line-height: 28px;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 ul {
@@ -162,10 +162,13 @@ hr {
 }
 
 .outside-image {
+  display: block;
   position: relative;
-  left: 600px;
+  left: 850px;
+  top: -128px;
 }
 .world-image {
+  display: block;
   position: relative;
-  left: 70px;
+  left: 130px;
 }
