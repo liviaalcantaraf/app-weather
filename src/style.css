@@ -1,5 +1,8 @@
+body {
+  color: #f0f2f4;
+}
 h1 {
-  color: #ece2ff;
+  color: #f0f2f4;
   font-size: 50px;
   font-weight: 100;
   line-height: 28px;
@@ -15,7 +18,7 @@ li {
   list-style: none;
   margin: 0;
   padding: 0;
-  color: #ece2ff;
+  color: #f0f2f4;
   font-size: 14px;
   font-weight: 100;
   line-height: 19px;
@@ -44,11 +47,11 @@ button {
 .app-wrapper {
   max-width: 600px;
   margin: 10px auto;
-  color: #ece2ff;
+  color: #dadde1;
 }
 .app-weather {
   padding: 23px;
-  border: 1px solid #dadde1;
+  border: 1px solid #f0f2f4;
   border-radius: 30px;
   background: #8fa6c1;
   box-shadow: 3px 3px 5px rgb(0 0 0 / 10%);
@@ -68,7 +71,7 @@ button {
 }
 
 .weather-temperature strong {
-  color: #ece2ff;
+  color: #f0f2f4;
   font-size: 70px;
   font-weight: 400;
   line-height: 64px;
@@ -84,7 +87,7 @@ button {
 }
 
 .weather-temperature .active {
-  color: #ece2ff;
+  color: #f0f2f4;
   cursor: default;
   text-decoration: none;
 }
@@ -125,7 +128,7 @@ button {
 
 .weather-forecast-date {
   font-size: 16px;
-  color: #ece2ff;
+  color: #f0f2f4;
 }
 
 .weather-forecast-date {
@@ -133,13 +136,13 @@ button {
 }
 
 .weather-forecast-temperature-min {
-  color: #ece2ff;
+  color: #f0f2f4;
   opacity: 0.6;
 }
 
 .weather-forecast-temperature {
   font-size: 13px;
-  color: #ece2ff;
+  color: #f0f2f4;
 }
 .bg-light {
   border-radius: 15px;
@@ -164,5 +167,5 @@ hr {
 }
 .world-image {
   position: relative;
-  left: 60px;
+  left: 70px;
 }
