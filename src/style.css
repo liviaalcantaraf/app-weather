@@ -27,7 +27,10 @@ li:first-letter {
   text-transform: capitalize;
 }
 a {
-  color: #5e6970;
+  color: #779bc4;
+}
+small {
+  color: #48484a;
 }
 
 button {
